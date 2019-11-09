@@ -1,0 +1,455 @@
+body{
+    background-color: #F1F1F1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+    
+a{
+    text-decoration: none;
+    color: #212529;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: #212529;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+
+
+/*============================ Navbar ==============================*/
+.nav-bg{
+    background: #394959;
+}
+.bars{
+    padding-right: 14px;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+}
+.rg-side{
+    width: 900px;
+}
+.top-form .input-group-text{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #F1F3F4;
+    border: none;
+    color: #777d84;
+}
+
+.top-form .form-control{
+    width: 500px;
+    border-radius: 100px;
+    background: #F1F3F4;
+    border: none;
+
+}
+.top-form .form-control::placeholder{
+    color: #9CA5B0;
+    font-weight: 600;
+
+}
+.top-form .form-control:focus{
+    box-shadow: none;
+
+}
+
+.lf-side .nav-link span i{
+    font-size: 12px;
+    padding-right: 8px;
+}
+.lf-side .nav-link i{
+    font-size: 16px;
+    padding-left: 9px;
+}
+.lf-side .nav-link img{
+    width: 30px;
+    height: 30px;
+    border-radius: 36px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.lf-side .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/*============================ Left-sidebar ==============================*/
+.left-sidebar{
+    padding-top: 60px;
+    width: 215px;
+    position: fixed;
+}
+.sidebar-user{
+    padding: 10px 0;
+    padding-left: 18px;
+    padding-right: 5px;
+    
+}
+.sidebar-user img{
+    border-radius: 100px;
+    border: 1px solid #41B5DE;
+    width: 52px;
+    height: 52px;
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.3); 
+    box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.3);
+}
+.user-info{
+    padding-left: 10px;
+}
+.user-info a{
+    font-size: 16px;
+    color: #242626;
+}
+.user-info span{
+    font-size: 14px;
+}
+
+.user-info .dropdown-item{
+    font-size: 12px;
+}
+.user-info .dropdown-toggle{
+    content:"\f078" ;
+    
+}
+.user-info .dropdown-item span{
+    padding-left: 8px;
+}
+.dropdown-menu{
+    min-width: 8rem;
+}
+
+.right-sidebar hr{
+    margin: 0;
+}
+
+.sidebar-list ul {
+    padding-top: 10px;
+}
+.sidebar-list ul li{
+    padding: 5px 0;
+    padding-left: 26px;
+}
+.sidebar-list ul li a{
+    color: #434343;
+    font-size: 15px;
+}
+.sidebar-list ul li i{
+    padding-right: 12px;
+    color: #747474;
+    font-size: 18px;
+}
+.sidebar-list ul li a:focus{
+    color: #000000;
+    font-weight: 500;
+}
+.sidebar-list ul li a:focus i{
+    color: #000000;
+}
+
+.dv-text{
+    margin-top: 5px;
+    padding: 6px 0;
+    padding-left: 20px;
+    color: #37353F;
+    font-weight: 700;
+    font-size: 12px;
+    background: #EEEEEE;
+}
+.apps{
+    padding-top: 0!important;
+}
+.sidebar-list ul.apps li a{
+    color: #000000;
+    font-weight: 500;
+}
+
+
+/*============================ Profile-section  ==============================*/
+
+.main-container{
+    margin-left: 230px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+
+}
+.banner-card{
+    position: relative;
+}
+
+.menu-section{
+    padding-left: 250px;
+}
+.menu-section .btn{
+    border-radius: 100px;
+    background-color: #dfe1e2;
+    color: #6c6c6c;
+}
+.menu-item a{
+    margin-right: 15px;
+    color: #6c6c6c;
+    padding-bottom: 8px;
+    transition: all linear .3s;
+}
+.menu-item a:hover{
+    border-bottom: 1px solid #6c6c6c;
+}
+.user-card{
+    width: 220px;
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+}
+.user-card .btn{
+    border-radius: 100px;
+    width: 80%;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6c6c6c;
+}
+
+.cover-btn {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
+.cover-btn a{
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    background: #8a8a8a;
+}
+
+
+/*==============  profile-left =====================*/
+
+.profile-left li{
+    padding: 7px 0;
+}
+.profile-left .card{
+    border-radius: 7px;
+}
+.profile-left a{
+    font-size: 14px;
+    color: #424242;
+}
+.profile-left a i{
+    color: #e28e00;
+    font-size: 18px;
+}
+.profile-left li span{
+    font-size: 12px;
+}
+.about-yourself .btn{
+    border-radius: 50px;
+    color: #6c6c6c;
+    background-color: #e1e1e1;
+}
+
+.write-something a i{
+    font-size: 12px;
+}
+.write-something a{
+    font-size: 13px;
+}
+.write-something li{
+    font-size: 12px;
+}
+
+
+.n-banner{
+    width: 50px;
+}
+.foot-menu li a{
+    font-size: 12px;
+    color: #6c6c6c;
+    padding-right: 7px;
+}
+.foot-menu li .dropdown-item {
+    font-size: 12px;
+    color: #000;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+/*======================= profile-right =============================*/
+
+.p-header .btn{
+    color: #fff;
+    background: #e28e00;
+    font-size: 14px;
+    border-radius: 100px;
+}
+
+.about-yourself{
+    color: #666;
+}
+.about-yourself-tabs .nav-item{
+    color: #666;
+    font-size: 14px;
+}
+
+
+.up-photo{
+    border: 1px dashed #b2b2b2;
+    height: 48px;
+    width: auto;
+    line-height: 48px;
+}
+.up-photo i{
+    font-size: 22px;
+}
+.up-photo a{
+
+    font-size: 16px;
+    color: #ee8208;
+}
+.fm label{
+    font-size: 14px;
+    line-height: 30px;
+}
+.ch{
+    line-height: 50px;
+}
+.ch-text{
+    width: 80px;
+    font-size: 14px;
+}
+
+.gd-text{
+    width: 150px;
+    line-height: 35px;
+}
+
+.fm-btn .btn{
+    font-size: 14px;
+}
+
+
+/*========================= activity user ==================================*/
+.ac-user-info{
+    font-size: 14px;
+}
+.ac-user-info img{
+    height: 40px;
+    border-radius: 100px;
+    background-color: gray;
+}
+
+.ac-user-file{
+    font-size: 16px;
+    line-height: 112px;
+}
+
+.user-activity a{
+    font-size: 14px;
+    color: #666;
+}
+.user-activity a{
+    font-size: 14px;
+    color: #666;
+}
+
+.user-react{
+    font-size: 14px;
+}
+.post-part:hover .user-close{
+    opacity: 1;
+}
+.user-close{
+    opacity: 0;
+}
+
+.post-content img{
+    height: 413px;
+}
+.post-button a i {
+    font-size: 12px;
+    color: #6c6c6c;
+    padding-right: 5px;
+}
+.post-button li {
+    margin-right: 10px;
+}
+.post-button .btn{
+    color: #808080;
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: ;
+}
+
+
+/*========================== right part banner ================================*/
+
+.social-banner img{
+    height: 150px;
+}
+
+
+/*========================== people part css ================================*/
+
+.profile-type .slick-slide{
+    margin: 0 5px!important;
+}
+.profile-type img{
+    width: 100%;
+    height: 150px;
+}
+.profile-type p,h6{
+    margin-bottom: 0;
+}
+.profile-type h6{
+    font-size: 14px;
+}
+.profile-type p{
+    font-size: 12px;
+}
+
+.slick-prev.slick-arrow{
+    position: absolute;
+    top: 85px;
+    left: -11px;
+    z-index: 99;
+    background-color: white;
+    content: '';
+    border: 0;
+    border-radius: 100px;
+    width: 42px;
+    height: 42px;
+}
+.slick-next.slick-arrow{
+    position: absolute;
+    top: 85px;
+    right: -11px;
+    z-index: 99;
+    background-color: white;
+    content: '';
+    border: 0;
+    border-radius: 100px;
+    width: 42px;
+    height: 42px;
+}
+button:focus{
+    outline: none;
+}
+
+/*== slider css ==*/
