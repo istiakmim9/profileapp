@@ -538,7 +538,7 @@ button:focus{
     border-radius: 100px;
     font-size: 13px;
     color: #fff;
-}
+}.
 .contact{
     padding-top: 30px;
 }
@@ -559,17 +559,22 @@ button:focus{
     margin-top: 5px;
     font-size: 12px;
     background-color: rgba(0,0,0,.08);
-    color: #666;
+    color: #666);
     padding: 4px 8px;
 
 }
 
+/*========================== webpage part css ================================*/
+.page-md .btn{
+    background: #fff;
+    color: rgba(102, 102, 102, 0.81);
+    border: 1px solid rgba(0,0,0,.08);
+}
 
-
-
-
-
-
+.user-tb td img{
+    height: 36px;
+    width: auto;
+}
 
 
 
