@@ -187,8 +187,18 @@ img{
     margin-left: 230px;
     padding-top: 70px;
     padding-bottom: 200px;
+}
+
+.content{
 
 }
+.center-content{
+
+}
+.right-content{
+
+}
+
 .banner-card{
     position: relative;
 }
@@ -406,13 +416,24 @@ img{
 
 
 /*========================== people part css ================================*/
-
+.profile-type{
+    border-radius: 5px;
+}
 .profile-type .slick-slide{
     margin: 0 5px!important;
 }
+.profile-type .card{
+    border-radius: 8px;
+    margin-bottom: 5px;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.08);
+}
 .profile-type img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     width: 100%;
-    height: 150px;
+    height: 120px;
 }
 .profile-type p,h6{
     margin-bottom: 0;
@@ -426,8 +447,8 @@ img{
 
 .slick-prev.slick-arrow{
     position: absolute;
-    top: 85px;
-    left: -11px;
+    top: 50px;
+    left: 0px;
     z-index: 99;
     background-color: white;
     content: '';
@@ -438,8 +459,8 @@ img{
 }
 .slick-next.slick-arrow{
     position: absolute;
-    top: 85px;
-    right: -11px;
+    top: 50px;
+    right: 0px;
     z-index: 99;
     background-color: white;
     content: '';
@@ -452,4 +473,156 @@ button:focus{
     outline: none;
 }
 
-/*== slider css ==*/
+/* tabs part */
+
+.tabs-part{
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.tabs-part .nav.nav-tabs{
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.1);
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    border-bottom: 2px transparent;
+}
+.tabs-part .nav.nav-tabs .nav-link{
+    color: #666;
+    padding: 14px 0;
+    margin: 0 16px;
+    border: 0;
+}
+.tabs-part .nav.nav-tabs .nav-link:hover{
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+.tabs-part .nav.nav-tabs .nav-link.active{
+    border: none;
+    border-bottom: 2px solid #ee8208;
+}
+.tabs-part .nav.nav-tabs .nav-link:focus{
+    border: none;
+    border-bottom: 2px solid #ee8208;
+}
+
+.discover .card,.friends .card,.contact .card,.following .card{
+    border-radius: 12px;
+    margin: 10px 0;
+}
+.discover .card img,.friends .card img,.contact .card img,.following .card img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 170px;
+}
+.discover .card-body h6,.friends .card-body h6,.contact .card-body h6,.following .card-body h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+.discover .card-body p,.friends .card-body p,.contact .card-body p,.following .card-body p{
+    font-size: small;
+}
+.discover,.friends,.contact,.following{
+    padding-top: 15px;
+}
+.card-button .btn{
+    background-color: rgba(0,0,0,.08);
+    border-radius: 100px;
+    font-size: 13px;
+    color: #666;
+}
+.friends .card-button .btn{
+    background-color: #ee8208;
+    border-radius: 100px;
+    font-size: 13px;
+    color: #fff;
+}
+.contact{
+    padding-top: 30px;
+}
+.contact td img{
+    height: 50px;
+}
+
+
+
+/*====================== right content part =============*/
+.pending-rq .media img {
+    height: 36px;
+}
+.pending-rq .media-body p {
+    line-height: normal;
+}
+.rq-button .btn{
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,.08);
+    color: #666;
+    padding: 4px 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
