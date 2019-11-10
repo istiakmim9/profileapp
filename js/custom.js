@@ -15,6 +15,18 @@ $(document).ready(function(){
     var next = $(".slick-next.slick-arrow").addClass('shadow');
     next.html("<i class='fas fa-chevron-right'></i>");
 
+	// js for hover dropdown
+
+/*
+	
+	$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);});
+
+*/	
+	
+	
+	
 
 
 });
