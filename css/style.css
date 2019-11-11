@@ -9,7 +9,7 @@ body{
     
 a{
     text-decoration: none;
-    color: #212529;
+    color: #333333;
     
 }
 a:hover{
@@ -575,6 +575,100 @@ button:focus{
     height: 36px;
     width: auto;
 }
+.top-bar {
+   border-radius: 4px;
+    line-height: 50px;
+}
+.top-bar a {
+    color: #333;
+    font-size: 14px;
+}
+.top-bar .media img{
+    width: 26px;
+    height: 26px;
+}
+.top-bar ul {
+    padding-left: 30px;
+}
+.top-bar ul li a{
+    padding: 15px 0;
+    margin: 0 8px;
+    border-bottom: 2px solid transparent;
+    color: #999;
+}
+.top-bar ul li a:hover{
+    border-bottom: 2px solid rgba(153, 153, 153, 0.31);
+}
+.top-bar ul li a:focus{
+    border-bottom: 2px solid #ee8208;
+    color: #333;
+}
+.top-bar ul li .dropdown-item{
+    border: 0;
+    margin: 0;
+    line-height: 30px;
+    padding:0 10px;
+    color: rgba(51, 51, 51, 0.85);
+}
+.top-bar ul li .dropdown-item:hover{
+    border: 0;
+    color: #333;
+}
+
+/*  create page css */
+
+.cr-page .modal-dialog {
+    max-width: 600px;
+}
+.cr-page .modal-dialog .modal-content {
+    border-radius: 8px;
+}
+.cr-page-info {
+    color: #ee8208;
+}
+.cr-page-info i{
+    font-size: 30px;
+}
+
+.cr-page .card-body{
+    border: 1px dashed #999;
+}
+.cr-page-modal .media{
+    font-size: 14px;
+    padding: 15px;
+}
+.cr-page-modal .media i{
+    font-size: 50px;
+    color: #ee8208;
+}
+.cr-page-modal .media{
+    padding: 0 30px;
+}
+.cr-page-modal .media:hover{
+    background-color:#f0f0f0 ;
+}
+.cr-page-modal .media a:hover{
+    color: #333;
+}
+.cr-page-modal .media .text-muted{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.cr-page-modal .m-br{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
 
 /*========================== page part css ================================*/
 .page-cover .p-ban{
