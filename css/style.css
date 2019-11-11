@@ -14,7 +14,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: #212529;
+    /*color: #212529;*/
 }
 ul,ol{
     list-style-type: none;
@@ -576,8 +576,78 @@ button:focus{
     width: auto;
 }
 
+/*========================== page part css ================================*/
+.page-cover .p-ban{
+    height: 142px;
+    width: auto;
+}
+.page-cover .menu-item,.page-cover .dropdown-menu{
+    font-size: 14px;
+}
+.pg-mn .media img{
+    height: 80px;
+    width: 80px;
+}
+.pg-mn-left {
+    line-height: 80px;
+}
+.pg-mn-left .btn {
+    background-color: #ee8208;
+    color: #fff;
+}
+.pg-mn-left .btn i{
+    font-size: smaller;
+}
+.pg-mn-left .dropdown-menu{
+    line-height: normal;
+}
+.pop-head span{
+    font-size: 14px;
+}
+.ab-page p{
+    font-size: 14px;
+}
+.pop-head a{
+    font-size: 12px;
+    color: #ee8208;
+    line-height: 22px;
+}
+.participants .card{
+    width: 70px;
+}
+
+.participants img{
+    height: 66px;
+    width: 66px;
+}
+
+.photo-album .card{
+    width: 80px;
+    height: 85px;
+    margin-bottom: 6px;
+    margin-right: 3px;
+
+}
+.photo-album .card img{
+    border-radius: 0;
+}
+.card.ph-tl img{
+    border-top-left-radius: 8px;
+}
+.card.ph-tr img{
+    border-top-right-radius: 8px;
+}
+.card.ph-bl img{
+    border-bottom-left-radius: 8px;
+}
+.card.ph-br img{
+    border-bottom-right-radius: 8px;
+}
 
 
+.post-part.tabs-part .nav.nav-tabs{
+    box-shadow: none;
+}
 
 
 

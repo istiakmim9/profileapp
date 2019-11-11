@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Proffile App</title>
+    
+<!--  css files  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+    
+<!-- Navbar start   -->
+
+<nav class="navbar navbar-expand-lg fixed-top nav-bg navbar-dark ">
+  <div class="container-fluid">
+     <div class="rg-side d-flex">
+        <a href="#"><span class="bars" ><i class="fas fa-bars" ></i></span></a>
+        <a class="navbar-brand " href="#">ProfileApp</a>
+        <div class="top-form ml-auto">
+        <form class="form-inline input-group my-2 my-lg-0">
+         <div class="input-group-prepend">
+             <div class="input-group-text">
+             <i class="fas fa-search " ></i>
+             </div>
+         </div>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        </div>
+    </div>
+      
+ <div class="lf-side">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     
+      <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span><i class="fas fa-plus" ></i></span>Create
+        </a>
+        <div class="dropdown-menu" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+       <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-friends"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+       <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-envelope" ></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+       <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-bell" ></i>
+        </a>
+        <div class="dropdown-menu  " aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+       <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-shopping-cart" ></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+       <li class="nav-item  dropdown">
+        <a class="nav-link " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-thfas fa-th" ></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link m-0 p-0 " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="images/users.png" alt="">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="">
+          <a class="dropdown-item" href="#">uih</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+ </div>
+  
+  </div>
+</nav>
+   
+<!-- Navbar end   -->   
+    
+
+<!--  Left sidebar start  -->
+
+   <div class="left-sidebar  ">
+       <div class="sidebar-user d-flex d-inline">
+           <img src="images/users.png" alt="user-image">
+            <div class="user-info">
+                <a class="nav-link p-0 dropdown " href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Shimul Ahmed <span><i class="fas fa-chevron-down"></i></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="">
+                  <a class="dropdown-item" href="#"><i class="far fa-user"></i><span>Profile</span></a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-sliders-h" ></i><span>Setting</span></a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-power-off"></i><span>Log out</span></a>
+                </div>
+                <span>user@profileapp.com</span>
+            </div>
+       </div>
+       <hr>
+       <div class="sidebar-list">
+           <ul class="navbar-nav">
+               <li class="active nav-item">
+                   <a href="index.html" class="nav-link"><i class="fas fa-home"></i>Home</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="profile.html" class="nav-link"><i class="fas fa-user-alt"></i>Profile</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="#" class="nav-link"><i class="fas fa-envelope"></i>Chat</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="people.html" class="nav-link"><i class="fas fa-user-friends"></i>People</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="webpage.html" class="nav-link"><i class="fab fa-buffer pr-3"></i>Webpage</a>
+               </li>
+           </ul>
+           <div class="dv-text">
+               APPS
+           </div>
+            <ul class="navbar-nav apps">
+                <li class=" nav-item">
+                   <a href="#" class="nav-link"><i class="fas fa-user-alt"></i>Education</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="#" class="nav-link"><i class="fas fa-envelope"></i>Jobs</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="#" class="nav-link"><i class="fas fa-user-friends"></i>Ecommerce</a>
+               </li>
+                <li class=" nav-item">
+                   <a href="#" class="nav-link"><i class="fab fa-buffer pr-3"></i>News</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+
+<!--Left sidebar end   -->
+
+
+<!--Main content container start   -->
+
+    <div class="main-container ">
+        <div class="content">
+            <div class="container container-fluid ">
+               <div class="row ">
+                   <div class="col-lg-9">
+                      <div class="row">
+                          <div class="col-lg-12 px-0 mb-3">
+
+                              <div class="card page-cover banner-card">
+
+                                  <img src="images/banner.jpg" class="p-ban card-img-top" alt="">
+                                  <div class="cover-btn ">
+                                      <a href="" class="btn btn-light py-1 px-4 " onclick="document.getElementById('setcover').click(); return false;">Set cover</a>
+                                      <form action="" method="post" enctype="multipart/form-data">
+                                          <input type="file" id="setcover" hidden accept="image/*">
+                                      </form>
+                                  </div>
+                                  <div class="card-body">
+                                      <div class="pg-mn pl-0 d-flex justify-content-between menu-section">
+                                          <div class="media">
+                                              <div class="i-img rounded-circle">
+                                                  <img src="images/new-banner.jpg" class="mr-3 img-fluid rounded-circle " alt="...">
+                                              </div>
+                                              <div class="media-body mt-3">
+                                                  <h5 class="my-0">SUPERMA</h5>
+                                                  <p class="m-0 text-muted">Children</p>
+
+                                              </div>
+                                          </div>
+                                          <div class="pg-mn-left ">
+                                              <a href="#" class="btn btn-light px-4 " ><i class="fas fa-plus pr-2"></i>Join</a>
+                                              <a href="#" class="btn btn-light px-4 " ><i class="fas fa-envelope pr-2"></i>Send a message</a>
+                                              <a href="#" class="  dropdown btn btn-light px-4" id="more-item" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                                  ...
+                                              </a>
+                                              <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="more-item">
+                                                  <a class="dropdown-item" href="#"><i class="fas fa-bookmark pr-2"></i>Add bookmark</a>
+                                                  <a class="dropdown-item" href="#"><i class="fas fa-exclamation-triangle pr-2"></i>Report</a>
+                                              </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="card-footer bg-white">
+                                      <div class="menu-item ">
+                                          <a href="#">News Feed</a>
+                                          <a href="#">Topic</a>
+                                          <a href="#">Photos</a>
+                                          <a href="#">Videos</a>
+                                          <a href="#">Participants</a>
+                                          <a class=" dropdown dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Others
+                                          </a>
+                                          <div class="dropdown-menu" >
+                                              <a class="dropdown-item pb-0 border-0" href="#">Links</a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+
+                          <!--                   profile-left     -->
+
+                          <div class="col-lg-4 no-gutters px-0">
+                             <div class="row">
+                                 <div class="col-lg-12">
+                                     <div class="profile-left mb-3">
+                                         <div class="card">
+                                             <div class="card-body ab-page pt-3 pb-0">
+                                                 <h6 class=" mb-2">About page</h6>
+                                                 <p class="">
+                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at dignissimos est et illo modi nihil, officia omnis. Accusantium debitis ea eligendi maiores, officiis perspiciatis provident quaerat quam quisquam repellat!
+                                                 </p>
+                                             </div>
+                                             <div class="card-footer bg-white small">
+                                                <i class=" text-muted fas fa-globe-americas"></i> <span class="text-muted">Site: <a href="www.profileppp.com">https://www.profileppp.com</a></span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+<!--                                 popular topic-->
+
+                                 <div class="col-lg-12">
+                                     <div class="profile-left  mb-3">
+                                         <div class="card">
+                                             <div class="card-body pt-3 pb-0">
+                                                 <h6 class=" mb-2">Popular topics</h6>
+                                                 <p class="small">
+                                                     <a href="" class="btn btn-light rounded-pill">#polls</a>
+                                                     <a href="" class="btn btn-light rounded-pill">#Pregnancy Calendar</a>
+                                                     <a href="" class="btn btn-light rounded-pill">#With a smile</a>
+                                                     <a href="" class="btn btn-light rounded-pill">#health</a>
+                                                     <a href="" class="btn btn-light rounded-pill">#UsefulInfa</a>
+                                                 </p>
+                                                 <p><a href="" class="btn btn-light py-1 px-3 rounded-pill">...</a></p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+<!--                                 Participants -->
+                                 <div class="col-lg-12">
+                                     <div class="profile-left mb-3">
+                                         <div class="card">
+                                             <div class="card-body pt-3 pb-0">
+                                                <div class="pop-head d-flex justify-content-between">
+                                                    <h6 class=" mb-2">Participants <span class="text-muted ">879757</span></h6>
+                                                    <a href="" class="small" >All participants</a>
+                                                </div>
+
+                                                 <div class="participants row pt-3 pb-3 d-flex justify-content-start">
+
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+                                                     <div class="card border-0 mb-2 mx-2 text-center">
+                                                         <a href=""><img src="images/users.png" class="img-fluid rounded-circle" alt=""></a>
+                                                         <div class="card-body p-0">
+                                                             <a href="" class="small" >Shimul</a>
+                                                         </div>
+                                                     </div>
+
+
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+<!--                                 photos album-->
+                                 <div class="col-lg-12">
+                                     <div class="profile-left mb-3">
+                                         <div class="card">
+                                             <div class="card-body pb-2 pt-3 pb-0">
+                                                <div class="pop-head d-flex justify-content-between">
+                                                    <h6 class=" mb-2">Photos from albums</h6>
+                                                    <a href="" class="small" >All albums</a>
+                                                </div>
+
+                                                 <div class="photo-album row pt-3 pb-3 d-flex justify-content-center">
+                                                     <div class="card ph-tl border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card  border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card ph-tr border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card ph-bl border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                     <div class="card ph-br border-0">
+                                                         <img src="images/new-banner.jpg" class=" card-img-top" alt="">
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+
+
+
+                             </div>
+                          </div>
+
+
+<!--                          profile right start-->
+
+                          <div class="col-8 no-gutters pr-0">
+
+<!--                              photos part-->
+<!--                             <div class="col-lg-12">-->
+<!--                                 <div class="card mb-3">-->
+<!--                                     <div class="card-body ">-->
+<!--                                         <div class="photo-section">-->
+<!--                                             <div class="p-header d-flex pb-4">-->
+<!--                                                 <h5>Photos</h5>-->
+<!--                                                 <div class="bt ml-auto">-->
+<!--                                                     <a href="" class="btn btn-warning py-1" onclick="document.getElementById('ad-ph').click(); return false;">Add photo</a>-->
+<!--                                                     <form action="" enctype="multipart/form-data">-->
+<!--                                                         <input type="file" accept="image/*" id="ad-ph" hidden>-->
+<!--                                                     </form>-->
+<!--                                                 </div>-->
+<!--                                             </div>-->
+<!--                                             <div class="photo-section-content pl-2">-->
+<!--                                                 <p class="">Here you will see your new photos</p>-->
+<!--                                             </div>-->
+
+<!--                                         </div>-->
+<!--                                     </div>-->
+<!--                                 </div>-->
+<!--                             </div>-->
+
+
+<!--                              post/-->
+
+                              <div class="col-lg-12">
+                                  <div class="card">
+                                      <div class="card-body">
+                                          <div class="post-part pt-0 tabs-part">
+                                              <div class="post-header">
+
+                                                  <div class=" nav nav-tabs user-react d-flex justify-content-between" id="nav-tab" role="tablist">
+                                                     <a class="nav-item nav-link active" id="all-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-all" aria-selected="true">All</a>
+                                                      <a class="nav-item nav-link pr-2" id="search-tab" data-toggle="tab" href="#nav-search" role="tab" aria-controls="nav-search" aria-selected="false">
+                                                          <i class="fas fa-search pr-2"></i> Search</a>
+                                                  </div>
+
+                                                  <hr class="mt-0">
+
+                                              </div>
+
+                                              <div class="tab-content" id="nav-tabContent">
+                                                  <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="all-tab">
+                                                      <div class="post-body">
+                                                          <div class="ac-user-info d-flex">
+                                                              <img src="images/users.png" alt="">
+                                                              <div class="ac-text w-100 pl-3 d-flex justify-content-between">
+                                                                  <div class="user-inf">
+                                                                      <p class="m-0"><a href="">Shimul Ahmed</a>  <span class="text-muted" >photos have been added</span></p>
+                                                                      <p class="m-0 ac-date text-muted">3 Nov</p>
+                                                                  </div>
+                                                                  <p class="user-close" ><a href=""><i class="fas fa-times"></i></a></p>
+                                                              </div>
+                                                          </div>
+
+                                                          <div class="post-content py-3">
+                                                              <div class="post-text">
+                                                                  <h5>Dame it!</h5>
+                                                              </div>
+                                                              <img src="images/new-banner.jpg" class="img-fluid" alt="">
+                                                          </div>
+
+                                                      </div>
+                                                      <div class="post-footer">
+                                                          <div class="post-button">
+                                                              <ul class="d-flex ">
+                                                                  <li><a href="" class="btn btn-light py-1">
+                                                                      <i class="fas fa-comment-alt"></i> Comments <span class="text-muted">|</span> <span>80</span>
+                                                                  </a></li>
+                                                                  <li><a href="" class="btn btn-light py-1">
+                                                                      <i class="fas fa-share"></i>  Share <span class="text-muted">|</span> <span>80</span>
+                                                                  </a></li>
+                                                                  <li><a href="" class="btn btn-light py-1">
+                                                                      <i class="fas fa-thumbs-up"></i> Like <span class="text-muted">|</span> <span>100</span>
+                                                                  </a></li>
+                                                              </ul>
+                                                          </div>
+
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="tab-pane fade" id="nav-search" role="tabpanel" aria-labelledby="search-tab">
+                                                      <div class="post-body">
+                                                          <form action="">
+                                                              <div class="form-group">
+                                                                  <input type="search" class="form-control" placeholder="Search in page">
+                                                              </div>
+                                                          </form>
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+
+
+
+
+
+                          </div>
+                      </div>
+
+                   </div>
+
+<!--                   right part of banner start -->
+
+                   <div class="col-lg-3 px-0">
+
+                       <div class="col-lg-12">
+                           <div class="card  mb-3">
+                               <div class="card-body">
+                                   <p class="small">None of your friends is online
+                                       at the moment.</p>
+                                   <hr class="">
+                               </div>
+                           </div>
+                       </div>
+
+<!--                       social banner   -->
+<!--                        <div class="col-lg-12">-->
+<!--                            <div class="social-banner">-->
+<!--                                <div class="card mb-3">-->
+<!--                                    <img src="images/new-banner.jpg" class="img-fluid card-img-top" alt="">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+
+                   </div>
+
+<!--                   right part of banner end-->
+
+
+
+
+               </div>
+            </div>
+        </div>
+    </div>
+
+<!--Main content container end   -->
+
+
+    
+    
+    
+    
+    
+    
+    
+  <script src="js/jquery-3.3.1.slim.min.js" ></script>  
+  <script src="js/popper.min.js" ></script>  
+  <script src="js/bootstrap.min.js" ></script>  
+  <script src="js/custom.js" ></script>
+</body>
+</html>
