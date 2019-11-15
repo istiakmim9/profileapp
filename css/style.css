@@ -14,7 +14,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    /*color: #212529;*/
+    color: #212529;
 }
 ul,ol{
     list-style-type: none;
@@ -517,8 +517,17 @@ button:focus{
     width: 100%;
     height: 170px;
 }
+.group-tabs .discover .card img,.group-tabs .friends .card img,.group-tabs .contact .card img,.group-tabs .following .card img{
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
 .discover .card-body h6,.friends .card-body h6,.contact .card-body h6,.following .card-body h6{
     font-size: 14px;
+    font-weight: 500;
+}
+.group-tabs .discover .card-body h6,.group-tabs .friends .card-body h6,.group-tabs .contact .card-body h6,.group-tabs .following .card-body h6{
+    font-size: 16px;
     font-weight: 500;
 }
 .discover .card-body p,.friends .card-body p,.contact .card-body p,.following .card-body p{
@@ -538,7 +547,7 @@ button:focus{
     border-radius: 100px;
     font-size: 13px;
     color: #fff;
-}.
+}
 .contact{
     padding-top: 30px;
 }
@@ -559,16 +568,23 @@ button:focus{
     margin-top: 5px;
     font-size: 12px;
     background-color: rgba(0,0,0,.08);
-    color: #666);
+    color: #666;
     padding: 4px 8px;
 
 }
 
 /*========================== webpage part css ================================*/
+
+.group-tabs .tabs-part .nav.nav-tabs{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .page-md .btn{
-    background: #fff;
-    color: rgba(102, 102, 102, 0.81);
-    border: 1px solid rgba(0,0,0,.08);
+    background: #ee8208;
+    color: #ffffff;
+    border: transparent;
+    font-size: 14px;
+    padding: 2px 30px;
 }
 
 .user-tb td img{
@@ -617,6 +633,9 @@ button:focus{
 
 /*  create page css */
 
+.cr-page .cr-page-info {
+    padding: 0 40px!important;
+}
 .cr-page .modal-dialog {
     max-width: 600px;
 }
@@ -644,10 +663,13 @@ button:focus{
 .cr-page-modal .media{
     padding: 0 30px;
 }
+.cr-page-modal .media-body{
+
+}
 .cr-page-modal .media:hover{
     background-color:#f0f0f0 ;
 }
-.cr-page-modal .media a:hover{
+.cr-page-modal  a:hover{
     color: #333;
 }
 .cr-page-modal .media .text-muted{
@@ -655,12 +677,89 @@ button:focus{
     line-height: 1.5;
     color: #666;
 }
-
 .cr-page-modal .m-br{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.cr-page-modal li{
+    width: 90px;
+}
+.cr-page-modal ul{
+    margin-bottom: 0;
+}
 
+.groups-cat .nav-link{
+    border-left: 2px solid transparent;
+    font-size: 14px;
+}
+.groups-cat .nav-link.active{
+    border-radius: 0;
+    border-left: 2px solid #ee8208;
+    background-color: #f6f6f6;
+    color: #333333;
+}
+.groups-cat .nav-link.active i{
+    color: #ee8208;
+}
+.groups-cat .nav-link:hover{
+    background-color: #f6f6f6;
+    color: #333333;
+}
+.groups-cat .nav-link li{
+    width: 30px;
+}
+.search-form input::placeholder{
+    color: #999;
+    font-size: 14px;
+}
+.search-form input{
+   position: relative;
+}
+.search-form .input-group-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    border: 0;
+    color: #999;
+    font-size: 14px;
+    background-color: transparent;
+}
+.m-page .card img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+.m-page .card .badge{
+    padding: 3px 9px;
+    font-size: 10px;
+    border: 2px solid white;
+    position: absolute;
+    top: -6px;
+    right: -8px;
+}
+
+.mpage a:hover{
+    text-decoration: underline;
+}
+.mpage p a{
+    font-size: 14px;
+}
+.m-page.mp-tab .badge{
+    right: 20px;
+}
+.mp-tab p{
+    color: #666;
+    font-size: 14px!important;
+    font-weight: 600;
+}
+.mp-tab p:hover{
+    text-decoration: underline;
+}
+.mp-tab p i{
+    color: #229CEF;
+    font-size: 16px!important;
+}
 
 
 
