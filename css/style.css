@@ -692,6 +692,9 @@ button:focus{
     border-left: 2px solid transparent;
     font-size: 14px;
 }
+.groups-cat .nav-link i{
+    color: #666;
+}
 .groups-cat .nav-link.active{
     border-radius: 0;
     border-left: 2px solid #ee8208;
@@ -843,13 +846,27 @@ button:focus{
 }
 
 
-
-
-
-
-
-
-
+/*=============================== setings part css ===============================*/
+.st-text {
+    color: #999;
+    font-size: 14px;
+}
+.s-table ul {
+    color: #333;
+    font-size: 16px;
+}
+.s-table ul:hover {
+    background-color: #f8f8f8;
+}
+.s-table ul li{
+    width: 50%;
+}
+.s-modal .modal-dialog{
+    max-width: 730px;
+}
+.m-form-btn.btn{
+    background-color: #ee8208;
+}
 
 
 
